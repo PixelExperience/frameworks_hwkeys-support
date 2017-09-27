@@ -18,12 +18,12 @@
  * 
  */
 
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
-import com.android.internal.utils.du.ActionConstants.ConfigMap;
-import com.android.internal.utils.du.ActionConstants.Defaults;
-import com.android.internal.utils.du.Config.ActionConfig;
-import com.android.internal.utils.du.Config.ButtonConfig;
+import com.android.internal.util.hwkeys.ActionConstants.ConfigMap;
+import com.android.internal.util.hwkeys.ActionConstants.Defaults;
+import com.android.internal.util.hwkeys.Config.ActionConfig;
+import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
 public interface ActionHolder {
    public String getTag();

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
 import java.io.File;
 import java.io.FileDescriptor;
@@ -137,7 +137,7 @@ public class ImageHelper {
         if (image instanceof VectorDrawable) {
             return image;
         } else {
-            int newSize = DUActionUtils.dpToPx(context, size);
+            int newSize = ActionUtils.dpToPx(context, size);
             Bitmap bitmap = ((BitmapDrawable) image).getBitmap();
             Bitmap scaledBitmap = Bitmap.createBitmap(newSize, newSize, Config.ARGB_8888);
 

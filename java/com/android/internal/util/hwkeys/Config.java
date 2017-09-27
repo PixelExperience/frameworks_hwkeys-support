@@ -29,15 +29,15 @@
  * for easy loading and setting
  * 
  */
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.android.internal.utils.du.ActionHandler;
-import com.android.internal.utils.du.ActionConstants.ConfigMap;
-import com.android.internal.utils.du.ActionConstants.Defaults;
+import com.android.internal.util.hwkeys.ActionHandler;
+import com.android.internal.util.hwkeys.ActionConstants.ConfigMap;
+import com.android.internal.util.hwkeys.ActionConstants.Defaults;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -397,12 +397,12 @@ public class Config {
         }
 
         public ActionConfig(Context ctx) {
-            label = DUActionUtils.getFriendlyNameForUri(ctx, action);
+            label = ActionUtils.getFriendlyNameForUri(ctx, action);
         }
 
         public ActionConfig(Context ctx, String action) {
             this.action = action;
-            label = DUActionUtils.getFriendlyNameForUri(ctx, action);
+            label = ActionUtils.getFriendlyNameForUri(ctx, action);
         }
 
         public ActionConfig(Context ctx, String action, String iconUri) {
@@ -464,7 +464,7 @@ public class Config {
         }
 
         public Drawable getDefaultIcon(Context ctx) {
-            return DUActionUtils.getDrawableForAction(ctx, action);
+            return ActionUtils.getDrawableForAction(ctx, action);
         }
 
         /**
@@ -479,10 +479,10 @@ public class Config {
                 if (type.equals("iconpack") && items.size() == 3) {
                     String packageName = items.get(1);
                     String iconName = items.get(2);
-                    return DUActionUtils.getDrawable(ctx, iconName, packageName);
+                    return ActionUtils.getDrawable(ctx, iconName, packageName);
                 } else if (type.equals("image") && items.size() == 2) {
                     String uri = items.get(1);
-                    return DUActionUtils.getDrawable(ctx, Uri.parse(uri));
+                    return ActionUtils.getDrawable(ctx, Uri.parse(uri));
                 }
             }
             return null;
@@ -494,7 +494,7 @@ public class Config {
 
             //If icon doesn't exist (or is not set) fallback to action one
             if (drawable == null) {
-                drawable = DUActionUtils.getDrawableForAction(ctx, action);
+                drawable = ActionUtils.getDrawableForAction(ctx, action);
             }
 
             return drawable;
@@ -528,7 +528,7 @@ public class Config {
             ArrayList<String> actionStrings = new ArrayList<String>();
             actionStrings.addAll(items);
             action = items.get(0);
-            label = DUActionUtils.getFriendlyNameForUri(ctx, action);
+            label = ActionUtils.getFriendlyNameForUri(ctx, action);
             iconUri = items.get(2);
         }
 

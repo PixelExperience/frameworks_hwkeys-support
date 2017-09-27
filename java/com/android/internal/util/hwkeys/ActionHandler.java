@@ -19,7 +19,7 @@
  *
  */
 
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;
@@ -80,7 +80,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.android.internal.statusbar.IStatusBarService;
-import com.android.internal.utils.du.Config.ActionConfig;
+import com.android.internal.util.hwkeys.Config.ActionConfig;
 
 public class ActionHandler {
     public static String TAG = ActionHandler.class.getSimpleName();
@@ -134,7 +134,6 @@ public class ActionHandler {
     public static final String SYSTEMUI_TASK_STOP_SCREENPINNING = "task_stop_screenpinning";
     public static final String SYSTEMUI_TASK_CLEAR_NOTIFICATIONS = "task_clear_notifications";
     public static final String SYSTEMUI_TASK_VOLUME_PANEL = "task_volume_panel";
-    public static final String SYSTEMUI_TASK_EDITING_SMARTBAR = "task_editing_smartbar";
     public static final String SYSTEMUI_TASK_SPLIT_SCREEN = "task_split_screen";
     public static final String SYSTEMUI_TASK_ONE_HANDED_MODE_LEFT = "task_one_handed_mode_left";
     public static final String SYSTEMUI_TASK_ONE_HANDED_MODE_RIGHT = "task_one_handed_mode_right";
@@ -188,7 +187,6 @@ public class ActionHandler {
         ImeArrowUp(SYSTEMUI_TASK_IME_NAVIGATION_UP, SYSTEMUI, "label_action_ime_up", "ic_sysbar_ime_up"),
         ClearNotifications(SYSTEMUI_TASK_CLEAR_NOTIFICATIONS, SYSTEMUI, "label_action_clear_notifications", "ic_sysbar_clear_notifications"),
         VolumePanel(SYSTEMUI_TASK_VOLUME_PANEL, SYSTEMUI, "label_action_volume_panel", "ic_sysbar_volume_panel"),
-        EditingSmartbar(SYSTEMUI_TASK_EDITING_SMARTBAR, SYSTEMUI, "label_action_editing_smartbar", "ic_sysbar_editing_smartbar"),
         SplitScreen(SYSTEMUI_TASK_SPLIT_SCREEN, SYSTEMUI, "label_action_split_screen", "ic_sysbar_docked"),
         OneHandedModeLeft(SYSTEMUI_TASK_ONE_HANDED_MODE_LEFT, SYSTEMUI, "label_action_one_handed_mode_left", "ic_sysbar_one_handed_mode_left"),
         OneHandedModeRight(SYSTEMUI_TASK_ONE_HANDED_MODE_RIGHT, SYSTEMUI, "label_action_one_handed_mode_right", "ic_sysbar_one_handed_mode_right"),
@@ -233,10 +231,9 @@ public class ActionHandler {
             SystemAction.ImeArrowLeft, SystemAction.ImeArrowRight,
             SystemAction.ImeArrowUp, SystemAction.InAppSearch,
             SystemAction.VolumePanel, SystemAction.ClearNotifications,
-            SystemAction.EditingSmartbar, SystemAction.SplitScreen,
-            SystemAction.RegionScreenshot, SystemAction.OneHandedModeLeft,
-            SystemAction.OneHandedModeRight, SystemAction.MediaArrowLeft,
-            SystemAction.MediaArrowRight
+            SystemAction.SplitScreen, SystemAction.RegionScreenshot,
+            SystemAction.OneHandedModeLeft, SystemAction.OneHandedModeRight,
+            SystemAction.MediaArrowLeft, SystemAction.MediaArrowRight
     };
 
     public static class ActionIconResources {
@@ -250,18 +247,18 @@ public class ActionHandler {
             mIndexMap = new HashMap<String, Integer>();
             for (int i = 0; i < systemActions.length; i++) {
                 mIndexMap.put(systemActions[i].mAction, i);
-                mDrawables[i] = DUActionUtils.getDrawable(res, systemActions[i].mIconRes,
+                mDrawables[i] = ActionUtils.getDrawable(res, systemActions[i].mIconRes,
                         systemActions[i].mResPackage);
-                mDarkDrawables[i] = DUActionUtils.getDrawable(res, systemActions[i].mDarkIconRes,
+                mDarkDrawables[i] = ActionUtils.getDrawable(res, systemActions[i].mDarkIconRes,
                         systemActions[i].mResPackage);
             }
         }
 
         public void updateResources(Resources res) {
             for (int i = 0; i < mDrawables.length; i++) {
-                mDrawables[i] = DUActionUtils.getDrawable(res, systemActions[i].mIconRes,
+                mDrawables[i] = ActionUtils.getDrawable(res, systemActions[i].mIconRes,
                         systemActions[i].mResPackage);
-                mDarkDrawables[i] = DUActionUtils.getDrawable(res, systemActions[i].mDarkIconRes,
+                mDarkDrawables[i] = ActionUtils.getDrawable(res, systemActions[i].mDarkIconRes,
                         systemActions[i].mResPackage);
             }
         }
@@ -298,27 +295,20 @@ public class ActionHandler {
                     || TextUtils.equals(action, SYSTEMUI_TASK_MEDIA_NEXT)) {
                 continue;
             } else if (TextUtils.equals(action, SYSTEMUI_TASK_WIFIAP)
-                    && !DUActionUtils.deviceSupportsMobileData(context)) {
+                    && !ActionUtils.deviceSupportsMobileData(context)) {
                 continue;
             } else if (TextUtils.equals(action, SYSTEMUI_TASK_BT)
-                    && !DUActionUtils.deviceSupportsBluetooth()) {
+                    && !ActionUtils.deviceSupportsBluetooth()) {
                 continue;
             } else if (TextUtils.equals(action, SYSTEMUI_TASK_TORCH)
-                 && !DUActionUtils.deviceSupportsFlashLight(context)) {
+                 && !ActionUtils.deviceSupportsFlashLight(context)) {
                 continue;
             } else if (TextUtils.equals(action, SYSTEMUI_TASK_CAMERA)
                     && context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
                 continue;
             } else if (TextUtils.equals(action, SYSTEMUI_TASK_SCREENRECORD)) {
-                if (!DUActionUtils.getBoolean(context, "config_enableScreenrecordChord",
-                        DUActionUtils.PACKAGE_ANDROID)) {
-                    continue;
-                }
-            } else if (TextUtils.equals(action, SYSTEMUI_TASK_EDITING_SMARTBAR)) {
-                // don't allow smartbar editor on Fling
-                if (Settings.Secure.getIntForUser(context.getContentResolver(),
-                        Settings.Secure.NAVIGATION_BAR_MODE, 0,
-                        UserHandle.USER_CURRENT) == 1) {
+                if (!ActionUtils.getBoolean(context, "config_enableScreenrecordChord",
+                        ActionUtils.PACKAGE_ANDROID)) {
                     continue;
                 }
             }
@@ -342,26 +332,6 @@ public class ActionHandler {
                     }
                 }
                 return mService;
-            }
-        }
-
-        private static void dispatchNavigationEditorResult(Intent intent) {
-            IStatusBarService service = getStatusBarService();
-            if (service != null) {
-                try {
-                    service.dispatchNavigationEditorResults(intent);
-                } catch (RemoteException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        private static void toggleNavigationEditor() {
-            IStatusBarService service = getStatusBarService();
-            try {
-                service.toggleNavigationEditor();
-            } catch (RemoteException e) {
-                e.printStackTrace();
             }
         }
 
@@ -494,7 +464,7 @@ public class ActionHandler {
         }
         // not a system action, should be intent
         if (!action.startsWith(SYSTEM_PREFIX)) {
-            Intent intent = DUActionUtils.getIntent(action);
+            Intent intent = ActionUtils.getIntent(action);
             if (intent == null) {
                 return;
             }
@@ -504,9 +474,6 @@ public class ActionHandler {
         }
     }
 */
-    public static void dispatchNavigationEditorResult(Intent intent) {
-        StatusBarHelper.dispatchNavigationEditorResult(intent);
-    }
 
     public static void performTask(Context context, String action) {
         // null: throw it out
@@ -518,7 +485,7 @@ public class ActionHandler {
         }
         // not a system action, should be intent
         if (!action.startsWith(SYSTEM_PREFIX)) {
-            Intent intent = DUActionUtils.getIntent(action);
+            Intent intent = ActionUtils.getIntent(action);
             if (intent == null) {
                 return;
             }
@@ -696,9 +663,6 @@ public class ActionHandler {
         } else if (action.equals(SYSTEMUI_TASK_VOLUME_PANEL)) {
             volumePanel(context);
             return;
-        } else if (action.equals(SYSTEMUI_TASK_EDITING_SMARTBAR)) {
-            StatusBarHelper.toggleNavigationEditor();
-            return;
         } else if (action.equals(SYSTEMUI_TASK_SPLIT_SCREEN)) {
             StatusBarHelper.splitScreen();
             return;
@@ -745,8 +709,8 @@ public class ActionHandler {
 
     private static ActivityOptions getAnimation(Context context) {
         return ActivityOptions.makeCustomAnimation(context,
-                com.android.internal.R.anim.du_app_in,
-                com.android.internal.R.anim.du_app_out);
+                com.android.internal.R.anim.custom_app_in,
+                com.android.internal.R.anim.custom_app_out);
     }
 
     private static ActivityManager.RunningTaskInfo getLastTask(Context context,
@@ -1030,8 +994,8 @@ public class ActionHandler {
                         pkgName = pkg;
                     }
 
-                    Resources systemUIRes = DUActionUtils.getResourcesForPackage(context, DUActionUtils.PACKAGE_SYSTEMUI);
-                    int ident = systemUIRes.getIdentifier("app_killed_message", DUActionUtils.STRING, DUActionUtils.PACKAGE_SYSTEMUI);
+                    Resources systemUIRes = ActionUtils.getResourcesForPackage(context, ActionUtils.PACKAGE_SYSTEMUI);
+                    int ident = systemUIRes.getIdentifier("app_killed_message", ActionUtils.STRING, ActionUtils.PACKAGE_SYSTEMUI);
                     String toastMsg = systemUIRes.getString(ident, pkgName);
                     Toast.makeText(context, toastMsg, Toast.LENGTH_SHORT).show();
                     return;

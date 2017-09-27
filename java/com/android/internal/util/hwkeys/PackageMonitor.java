@@ -20,7 +20,7 @@
  * to the UI thread
  */
 
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
 import android.content.Context;
 import android.os.Handler;
@@ -28,7 +28,7 @@ import android.os.Message;
 
 import java.util.ArrayList;
 
-public class DUPackageMonitor extends com.android.internal.content.PackageMonitor {
+public class PackageMonitor extends com.android.internal.content.PackageMonitor {
     private static final int MSG_PACKAGE_ADDED = 1;
     private static final int MSG_PACKAGE_REMOVED = 2;
     private static final int MSG_PACKAGE_CHANGED = 3;

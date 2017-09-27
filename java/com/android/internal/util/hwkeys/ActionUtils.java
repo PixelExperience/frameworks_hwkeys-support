@@ -18,7 +18,7 @@
  * 
  */
 
-package com.android.internal.utils.du;
+package com.android.internal.util.hwkeys;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
@@ -62,11 +62,11 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import com.android.internal.telephony.PhoneConstants;
-import com.android.internal.utils.du.ActionConstants.Defaults;
-import com.android.internal.utils.du.Config.ActionConfig;
-import com.android.internal.utils.du.Config.ButtonConfig;
+import com.android.internal.util.hwkeys.ActionConstants.Defaults;
+import com.android.internal.util.hwkeys.Config.ActionConfig;
+import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
-public final class DUActionUtils {
+public final class ActionUtils {
     public static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
     public static final String PACKAGE_SYSTEMUI = "com.android.systemui";
     public static final String PACKAGE_ANDROID = "android";
@@ -83,9 +83,6 @@ public final class DUActionUtils {
     public static final String BOOL = "bool";
     public static final String STRING = "string";
     public static final String ANIM = "anim";
-
-    public static final int DUI_ICON_MAX_WIDTH = 512;
-    public static final int DUI_ICON_MAX_HEIGHT = 512;
 
     // 10 inch tablets
     public static boolean isXLargeScreen() {

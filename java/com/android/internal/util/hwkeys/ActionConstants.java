@@ -127,9 +127,9 @@ public class ActionConstants {
               + dl(SystemAction.NoAction.mAction)    + dl(SystemAction.NoAction.mLabelRes)     + dl(EMPTY)  // double tap (THIRD)
 
               + dl(HOME_BUTTON_TAG)
-              + dl(SystemAction.Home.mAction)        + dl(SystemAction.Home.mLabelRes)         + dl(EMPTY)
-              + dl(SystemAction.Assistant.mAction)   + dl(SystemAction.Assistant.mLabelRes)    + dl(EMPTY)
-              + dl(SystemAction.NoAction.mAction)    + dl(SystemAction.NoAction.mLabelRes)     + dl(EMPTY)
+              + dl(SystemAction.Home.mAction)             + dl(SystemAction.Home.mLabelRes)              + dl(EMPTY)
+              + dl(SystemAction.GoogleNowOnTap.mAction)   + dl(SystemAction.GoogleNowOnTap.mLabelRes)    + dl(EMPTY)
+              + dl(SystemAction.NoAction.mAction)         + dl(SystemAction.NoAction.mLabelRes)          + dl(EMPTY)
 
               + dl(OVERVIEW_BUTTON_TAG)
               + dl(SystemAction.Overview.mAction)    + dl(SystemAction.Overview.mLabelRes)     + dl(EMPTY)

@@ -27,9 +27,7 @@
     <string name="label_action_expanded_desktop">Expanded desktop</string>
     <string name="label_action_screen_off">Turn off screen</string>
     <string name="label_action_force_close_app">Force close app</string>
-    <string name="label_action_search_assistant">Search assistant</string>
-    <string name="label_action_google_now_on_tap">Google assistant</string>
-    <string name="label_action_voice_search">Voice search</string>
+    <string name="label_action_google_assistant">Google assistant</string>
     <string name="label_action_in_app_search">In-app search</string>
     <string name="label_action_flashlight">Flashlight</string>
     <string name="label_action_bluetooth">Bluetooth</string>

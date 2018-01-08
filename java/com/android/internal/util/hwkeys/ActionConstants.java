@@ -128,7 +128,7 @@ public class ActionConstants {
 
               + dl(HOME_BUTTON_TAG)
               + dl(SystemAction.Home.mAction)             + dl(SystemAction.Home.mLabelRes)              + dl(EMPTY)
-              + dl(SystemAction.GoogleNowOnTap.mAction)   + dl(SystemAction.GoogleNowOnTap.mLabelRes)    + dl(EMPTY)
+              + dl(SystemAction.GoogleAssistant.mAction)  + dl(SystemAction.GoogleAssistant.mLabelRes)   + dl(EMPTY)
               + dl(SystemAction.NoAction.mAction)         + dl(SystemAction.NoAction.mLabelRes)          + dl(EMPTY)
 
               + dl(OVERVIEW_BUTTON_TAG)
@@ -142,9 +142,9 @@ public class ActionConstants {
               + dl(SystemAction.NoAction.mAction)    + dl(SystemAction.NoAction.mLabelRes)     + dl(EMPTY)
 
               + dl(ASSIST_BUTTON_TAG)
-              + dl(SystemAction.Assistant.mAction)   + dl(SystemAction.Assistant.mLabelRes)    + dl(EMPTY)
-              + dl(SystemAction.VoiceSearch.mAction) + dl(SystemAction.VoiceSearch.mLabelRes)  + dl(EMPTY)
-              + dl(SystemAction.NoAction.mAction)    + dl(SystemAction.NoAction.mLabelRes)     + EMPTY;
+              + dl(SystemAction.GoogleAssistant.mAction)   + dl(SystemAction.GoogleAssistant.mLabelRes)    + dl(EMPTY)
+              + dl(SystemAction.NoAction.mAction)          + dl(SystemAction.NoAction.mLabelRes)           + dl(EMPTY)
+              + dl(SystemAction.NoAction.mAction)          + dl(SystemAction.NoAction.mLabelRes)           + EMPTY;
 
         @Override
         public int getConfigType() {

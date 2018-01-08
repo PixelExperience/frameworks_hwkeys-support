@@ -28,7 +28,7 @@
     <color name="icon_color_screen_off">@color/icon_color_default</color>
     <color name="icon_color_force_close_app">@color/icon_color_default</color>
     <color name="icon_color_search_assistant">@color/icon_color_default</color>
-    <color name="icon_color_google_now_on_tap">@color/icon_color_default</color>
+    <color name="icon_color_google_assistant">@color/icon_color_default</color>
     <color name="icon_color_voice_search">@color/icon_color_default</color>
     <color name="icon_color_in_app_search">@color/icon_color_default</color>
     <color name="icon_color_flashlight">@color/icon_color_default</color>

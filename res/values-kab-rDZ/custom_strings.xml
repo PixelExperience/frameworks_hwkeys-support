@@ -25,9 +25,6 @@
   <string name="label_action_screenrecord">Agdil n usekles</string>
   <string name="label_action_screen_off">Sens agdil</string>
   <string name="label_action_force_close_app">Hettem aseḥbes n usnas</string>
-  <string name="label_action_search_assistant">Nadi amarag</string>
-  <string name="label_action_google_now_on_tap">Google Now  s yiwen n usenned</string>
-  <string name="label_action_voice_search">Anadi ameslaw</string>
   <string name="label_action_flashlight">Taftilt n lǧib</string>
   <string name="label_action_bluetooth">Bluetooth</string>
   <string name="label_action_wifi">WiFi</string>

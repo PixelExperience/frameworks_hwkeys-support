@@ -24,9 +24,6 @@
   <string name="label_action_screenrecord">রেকর্ডিং পর্দা</string>
   <string name="label_action_screen_off">স্ক্রিন বন্ধ করুন</string>
   <string name="label_action_force_close_app">অ্যাপ বলপূর্বক বন্ধ করুন</string>
-  <string name="label_action_search_assistant">সহকারী অনুন্ধান করুন</string>
-  <string name="label_action_google_now_on_tap">গুগল নাউ তে ট্যাপ করুন</string>
-  <string name="label_action_voice_search">ভয়েস সার্চ</string>
   <string name="label_action_in_app_search">অ্যাপের মধ্যে অনুসন্ধান করুন</string>
   <string name="label_action_flashlight">ফ্ল্যাশলাইট</string>
   <string name="label_action_bluetooth">ব্লুতুথ</string>

@@ -23,7 +23,6 @@
   <string name="label_action_expanded_desktop">Разширен екран</string>
   <string name="label_action_screen_off">Изключване на екрана</string>
   <string name="label_action_force_close_app">Принудително спиране</string>
-  <string name="label_action_voice_search">Гласово търсене</string>
   <string name="label_action_in_app_search">Търсене в приложенията</string>
   <string name="label_action_flashlight">Фенерче</string>
   <string name="label_action_bluetooth">Блутуут</string>

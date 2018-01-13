@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">سطح المكتب الموسّع</string>
   <string name="label_action_screen_off">أغلق الشاشة</string>
   <string name="label_action_force_close_app">أغلق التطبيق بالقوة</string>
-  <string name="label_action_search_assistant">مساعد البحث</string>
-  <string name="label_action_google_now_on_tap">Google Now بنقرة واحدة</string>
-  <string name="label_action_voice_search">البحث الصوتي</string>
   <string name="label_action_in_app_search">البحث داخل التطبيق</string>
   <string name="label_action_flashlight">الكشاف</string>
   <string name="label_action_bluetooth">البلوتوث</string>

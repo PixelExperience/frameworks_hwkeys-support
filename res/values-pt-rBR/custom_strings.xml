@@ -26,9 +26,7 @@
   <string name="label_action_expanded_desktop">Área de trabalho expandida</string>
   <string name="label_action_screen_off">Desligar a tela</string>
   <string name="label_action_force_close_app">Forçar fechamento do app</string>
-  <string name="label_action_search_assistant">Assistente de pesquisa</string>
   <string name="label_action_google_assistant">Google Assistente</string>
-  <string name="label_action_voice_search">Busca por voz</string>
   <string name="label_action_in_app_search">Busca interna do app</string>
   <string name="label_action_flashlight">Lanterna</string>
   <string name="label_action_bluetooth">Bluetooth</string>

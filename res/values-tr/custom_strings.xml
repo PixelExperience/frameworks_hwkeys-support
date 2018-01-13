@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">Eylem yok</string>
-  <string name="label_action_settings_panel">Ayarlar paneli</string>
+  <string name="label_action_settings_panel">Hızlı ayarlar paneli</string>
   <string name="label_action_notification_panel">Bildirim paneli</string>
   <string name="label_action_screenshot">Ekran görüntüsü</string>
   <string name="label_action_region_screenshot">Kısmi ekran görüntüsü</string>
@@ -26,10 +26,7 @@
   <string name="label_action_expanded_desktop">Genişletilmiş masaüstü</string>
   <string name="label_action_screen_off">Ekranı kapat</string>
   <string name="label_action_force_close_app">Uygulamayı kapatmaya zorla</string>
-  <string name="label_action_search_assistant">Arama yardımcısı</string>
-  <string name="label_action_google_now_on_tap">Google Asistan\'a Dokunun
-</string>
-  <string name="label_action_voice_search">Sesli arama</string>
+  <string name="label_action_google_assistant">Google asistan</string>
   <string name="label_action_in_app_search">Uygulama içi arama</string>
   <string name="label_action_flashlight">El feneri</string>
   <string name="label_action_bluetooth">Bluetooth</string>
@@ -41,7 +38,7 @@
   <string name="label_action_menu">Menü</string>
   <string name="label_action_back">Geri</string>
   <string name="label_action_home">Ana sayfa</string>
-  <string name="label_action_ime_switcher">Klavye Değiştirici</string>
+  <string name="label_action_ime_switcher">Klavye değiştirici</string>
   <string name="label_action_stop_screenpinning">Ekran sabitlemeyi durdur</string>
   <string name="label_action_ime_down">Aşagı imleç giriş yöntemi</string>
   <string name="label_action_ime_left">Sol imleç giriş yontemi</string>

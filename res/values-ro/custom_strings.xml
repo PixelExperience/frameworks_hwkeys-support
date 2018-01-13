@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Desktop extins</string>
   <string name="label_action_screen_off">Oprește ecranul</string>
   <string name="label_action_force_close_app">Forțează închiderea aplicației</string>
-  <string name="label_action_search_assistant">Asistent căutare</string>
-  <string name="label_action_google_now_on_tap">Google Now la apăsare</string>
-  <string name="label_action_voice_search">Căutare vocală</string>
   <string name="label_action_in_app_search">Căutare în aplicație</string>
   <string name="label_action_flashlight">Lanternă</string>
   <string name="label_action_bluetooth">Bluetooth</string>

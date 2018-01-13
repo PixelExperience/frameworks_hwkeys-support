@@ -20,15 +20,13 @@
   <string name="label_action_no_action">Keine Aktion</string>
   <string name="label_action_settings_panel">Einstellungs Panel</string>
   <string name="label_action_notification_panel">Benachrichtigungsleiste</string>
-  <string name="label_action_screenshot">Bildschirmfoto</string>
+  <string name="label_action_screenshot">Screenshot</string>
   <string name="label_action_region_screenshot">Partieller Screenshot</string>
   <string name="label_action_screenrecord">Bildschirmaufnahme</string>
   <string name="label_action_expanded_desktop">Erweiterter Desktop</string>
   <string name="label_action_screen_off">Bildschirm ausschalten</string>
   <string name="label_action_force_close_app">App beenden</string>
-  <string name="label_action_search_assistant">Suchassistent</string>
-  <string name="label_action_google_now_on_tap">Google Now On Tap</string>
-  <string name="label_action_voice_search">Sprachsuche</string>
+  <string name="label_action_google_assistant">Google Assistant</string>
   <string name="label_action_in_app_search">In-App Suche</string>
   <string name="label_action_flashlight">Taschenlampe</string>
   <string name="label_action_bluetooth">Bluetooth</string>

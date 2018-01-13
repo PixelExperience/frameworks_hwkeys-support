@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Εκτεταμένη επιφάνεια εργασίας</string>
   <string name="label_action_screen_off">Απενεργοποίηση οθόνης</string>
   <string name="label_action_force_close_app">Αναγκαστικό κλείσιμο εφαρμογής</string>
-  <string name="label_action_search_assistant">Βοηθός αναζήτησης</string>
-  <string name="label_action_google_now_on_tap">Αγγίξτε για Google Now</string>
-  <string name="label_action_voice_search">Φωνητική αναζήτηση</string>
   <string name="label_action_in_app_search">Αναζήτηση μέσα στην εφαρμογή</string>
   <string name="label_action_flashlight">Φακός</string>
   <string name="label_action_bluetooth">Bluetooth</string>

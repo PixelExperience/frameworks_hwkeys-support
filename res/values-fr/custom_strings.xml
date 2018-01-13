@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Bureau étendu</string>
   <string name="label_action_screen_off">Éteindre l\'écran</string>
   <string name="label_action_force_close_app">Forcer l\'arrêt de l\'application</string>
-  <string name="label_action_search_assistant">Assistant de recherche</string>
-  <string name="label_action_google_now_on_tap">Google Now On Tap</string>
-  <string name="label_action_voice_search">Recherche vocale</string>
   <string name="label_action_in_app_search">Recherche dans l\'application</string>
   <string name="label_action_flashlight">Lampe de poche</string>
   <string name="label_action_bluetooth">Bluetooth</string>

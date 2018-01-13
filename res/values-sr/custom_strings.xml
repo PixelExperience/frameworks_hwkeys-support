@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Проширена радна површина</string>
   <string name="label_action_screen_off">Искључи екран</string>
   <string name="label_action_force_close_app">Присилно затвори апликацију</string>
-  <string name="label_action_search_assistant">Помоћник у претрази</string>
-  <string name="label_action_google_now_on_tap">Google Now на додир</string>
-  <string name="label_action_voice_search">Гласовна претрага</string>
   <string name="label_action_in_app_search">Претрага унутар апликације</string>
   <string name="label_action_flashlight">Лампа</string>
   <string name="label_action_bluetooth">Bluetooth</string>

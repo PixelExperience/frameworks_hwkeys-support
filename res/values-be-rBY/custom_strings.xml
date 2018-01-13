@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Рэжым пашыранага экрану</string>
   <string name="label_action_screen_off">Выключыць экран</string>
   <string name="label_action_force_close_app">Прымусова закрыць праграму</string>
-  <string name="label_action_search_assistant">Пошукавы параднік</string>
-  <string name="label_action_google_now_on_tap">Google Now On Tap</string>
-  <string name="label_action_voice_search">Галасавы пошук</string>
   <string name="label_action_in_app_search">Пошук у праграме</string>
   <string name="label_action_flashlight">Ліхтарык</string>
   <string name="label_action_bluetooth">Bluetooth</string>

@@ -26,9 +26,7 @@
   <string name="label_action_expanded_desktop">Desktop diperluas</string>
   <string name="label_action_screen_off">Matikan layar</string>
   <string name="label_action_force_close_app">Paksa tutup aplikasi</string>
-  <string name="label_action_search_assistant">Asisten pencarian</string>
-  <string name="label_action_google_now_on_tap">Google Now On Tap</string>
-  <string name="label_action_voice_search">Pencarian suara</string>
+  <string name="label_action_google_assistant">Google asisten</string>
   <string name="label_action_in_app_search">Pencarian di-app</string>
   <string name="label_action_flashlight">Senter</string>
   <string name="label_action_bluetooth">Bluetooth</string>

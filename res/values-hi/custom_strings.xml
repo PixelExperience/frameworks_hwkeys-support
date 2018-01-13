@@ -26,9 +26,7 @@
   <string name="label_action_expanded_desktop">विस्तारित डेस्कटॉप</string>
   <string name="label_action_screen_off">स्क्रीन बंद</string>
   <string name="label_action_force_close_app">बल अनुप्रयोग बंद करे</string>
-  <string name="label_action_search_assistant">खोज सहायक</string>
-  <string name="label_action_google_now_on_tap">अभी गूगल करें</string>
-  <string name="label_action_voice_search">आवाज से खोज</string>
+  <string name="label_action_google_assistant">गूगल असिस्टेंट</string>
   <string name="label_action_in_app_search">इन-ऐप खोज</string>
   <string name="label_action_flashlight">टॉर्च</string>
   <string name="label_action_bluetooth">ब्लू टूथ</string>

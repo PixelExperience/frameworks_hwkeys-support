@@ -26,9 +26,7 @@
   <string name="label_action_expanded_desktop">Schermo esteso</string>
   <string name="label_action_screen_off">Spegni lo schermo</string>
   <string name="label_action_force_close_app">Chiusura forzata app</string>
-  <string name="label_action_search_assistant">Assistente di ricerca</string>
-  <string name="label_action_google_now_on_tap">Google Now al tocco</string>
-  <string name="label_action_voice_search">Ricerca vocale</string>
+  <string name="label_action_google_assistant">Google assistant</string>
   <string name="label_action_in_app_search">Ricerca in app</string>
   <string name="label_action_flashlight">Torcia</string>
   <string name="label_action_bluetooth">Bluetooth</string>

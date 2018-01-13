@@ -26,9 +26,6 @@
   <string name="label_action_expanded_desktop">Utökat skrivbord</string>
   <string name="label_action_screen_off">Stäng av skärm</string>
   <string name="label_action_force_close_app">Tvinga stängning av app</string>
-  <string name="label_action_search_assistant">Sökassistenten</string>
-  <string name="label_action_google_now_on_tap">Google Now vid klick</string>
-  <string name="label_action_voice_search">Röstsökning</string>
   <string name="label_action_in_app_search">Sökning i app</string>
   <string name="label_action_flashlight">Ficklampa</string>
   <string name="label_action_bluetooth">Blåtand</string>

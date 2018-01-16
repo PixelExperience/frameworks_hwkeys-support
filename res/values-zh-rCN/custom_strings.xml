@@ -26,7 +26,7 @@
   <string name="label_action_expanded_desktop">扩展桌面</string>
   <string name="label_action_screen_off">关闭屏幕</string>
   <string name="label_action_force_close_app">强制关闭应用</string>
-  <string name="label_action_google_assistant">Google Assistant</string>
+  <string name="label_action_google_assistant">谷歌助理</string>
   <string name="label_action_in_app_search">应用内搜索</string>
   <string name="label_action_flashlight">手电筒</string>
   <string name="label_action_bluetooth">蓝牙</string>

@@ -24,13 +24,14 @@
   <string name="label_action_region_screenshot">Częściowy zrzut ekranu</string>
   <string name="label_action_screenrecord">Nagrywanie ekranu</string>
   <string name="label_action_expanded_desktop">Rozszerzony pulpit</string>
-  <string name="label_action_screen_off">Wyłączanie ekranu</string>
+  <string name="label_action_screen_off">Wyłącz ekran</string>
   <string name="label_action_force_close_app">Wymuś zamknięcie aplikacji</string>
+  <string name="label_action_google_assistant">Asystent Google</string>
   <string name="label_action_in_app_search">Wyszukiwanie w aplikacji</string>
   <string name="label_action_flashlight">Latarka</string>
   <string name="label_action_bluetooth">Bluetooth</string>
   <string name="label_action_wifi">WiFi</string>
-  <string name="label_action_hotspot">Hotspot</string>
+  <string name="label_action_hotspot">Punkt dostępu</string>
   <string name="label_action_last_app">Ostatnia aplikacja</string>
   <string name="label_action_overview">Ostatnie</string>
   <string name="label_action_power_menu">Menu zasilania</string>

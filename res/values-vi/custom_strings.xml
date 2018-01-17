@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Mở rộng màn hình</string>
   <string name="label_action_screen_off">Tắt màn hình</string>
   <string name="label_action_force_close_app">Buộc dừng ứng dụng</string>
+  <string name="label_action_google_assistant">Google Assistant</string>
   <string name="label_action_in_app_search">Tìm kiếm trong ứng dụng</string>
   <string name="label_action_flashlight">Đèn pin</string>
   <string name="label_action_bluetooth">Bluetooth</string>

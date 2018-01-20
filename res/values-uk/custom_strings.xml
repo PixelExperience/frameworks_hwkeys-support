@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Розширений робочий стіл</string>
   <string name="label_action_screen_off">Вимкнути екран</string>
   <string name="label_action_force_close_app">Закрити примусово</string>
+  <string name="label_action_google_assistant">Google Помічник</string>
   <string name="label_action_in_app_search">Пошук у додатку</string>
   <string name="label_action_flashlight">Ліхтарик</string>
   <string name="label_action_bluetooth">Bluetooth</string>

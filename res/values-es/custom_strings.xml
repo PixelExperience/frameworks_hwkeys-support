@@ -17,15 +17,15 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
-  <string name="label_action_no_action">Sen acción</string>
-  <string name="label_action_settings_panel">Panel de axustes</string>
-  <string name="label_action_notification_panel">Panel de notificacións</string>
+  <string name="label_action_no_action">Sin acción</string>
+  <string name="label_action_settings_panel">Panel de ajustes</string>
+  <string name="label_action_notification_panel">Panel de notificaciones</string>
   <string name="label_action_screenshot">Captura de pantalla</string>
   <string name="label_action_region_screenshot">Captura de pantalla parcial</string>
-  <string name="label_action_screenrecord">Gravar a pantalla</string>
-  <string name="label_action_expanded_desktop">Escritorio estendido</string>
-  <string name="label_action_screen_off">Apagar a pantalla</string>
-  <string name="label_action_force_close_app">Forzar peche do aplicativo</string>
+  <string name="label_action_screenrecord">Grabar pantalla</string>
+  <string name="label_action_expanded_desktop">Escritorio extendido</string>
+  <string name="label_action_screen_off">Apagar la pantalla</string>
+  <string name="label_action_force_close_app">Forzar cierre de la aplicación</string>
   <string name="label_action_google_assistant">Asistente de Google</string>
   <string name="label_action_in_app_search">Buscar no aplicativo</string>
   <string name="label_action_flashlight">Lanterna</string>

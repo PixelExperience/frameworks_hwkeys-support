@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Proširena radna površina</string>
   <string name="label_action_screen_off">Isključi zaslon</string>
   <string name="label_action_force_close_app">Prisilno zatvori aplikaciju</string>
+  <string name="label_action_google_assistant">Google pomoćnik</string>
   <string name="label_action_in_app_search">Pretraživanje u aplikaciji</string>
   <string name="label_action_flashlight">Svjetiljka</string>
   <string name="label_action_bluetooth">Bluetooth</string>

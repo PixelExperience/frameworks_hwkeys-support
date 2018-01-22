@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">확장 데스크탑</string>
   <string name="label_action_screen_off">화면 끄기</string>
   <string name="label_action_force_close_app">앱 강제종료</string>
+  <string name="label_action_google_assistant">Google 어시스턴트</string>
   <string name="label_action_in_app_search">앱 내 검색</string>
   <string name="label_action_flashlight">손전등</string>
   <string name="label_action_bluetooth">블루투스</string>

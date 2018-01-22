@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Uitgebreid bureaublad</string>
   <string name="label_action_screen_off">Scherm uitzetten</string>
   <string name="label_action_force_close_app">App geforceerd afsluiten</string>
+  <string name="label_action_google_assistant">Google Assistant</string>
   <string name="label_action_in_app_search">In-app zoeken</string>
   <string name="label_action_flashlight">Zaklamp</string>
   <string name="label_action_bluetooth">Bluetooth</string>

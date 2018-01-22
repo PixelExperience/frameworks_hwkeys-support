@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Rozšírená plocha</string>
   <string name="label_action_screen_off">Vypnutie obrazovky</string>
   <string name="label_action_force_close_app">Vynútené ukončenie aplikácií</string>
+  <string name="label_action_google_assistant">Asistent Google</string>
   <string name="label_action_in_app_search">Vyhľadávanie v aplikáciách</string>
   <string name="label_action_flashlight">Baterka</string>
   <string name="label_action_bluetooth">Bluetooth</string>

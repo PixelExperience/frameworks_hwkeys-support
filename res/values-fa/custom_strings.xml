@@ -39,7 +39,12 @@
   <string name="label_action_back">برگشت</string>
   <string name="label_action_home">خانه</string>
   <string name="label_action_ime_switcher">تغییردهنده روش ورودی</string>
-  <string name="label_action_volume_panel">پانل صدا</string>
+  <string name="label_action_stop_screenpinning">توقف پین گذاری صفحه</string>
+  <string name="label_action_ime_down">مکان نمای ورودی متن به سمت پایین</string>
+  <string name="label_action_ime_left">مکان نمای ورودی متن به سمت چپ</string>
+  <string name="label_action_ime_right">مکان نمای ورودی متن به سمت راست</string>
+  <string name="label_action_ime_up">مکان نمای ورودی متن به سمت بالا</string>
+  <string name="label_action_volume_panel">پنل میزان صدا</string>
   <string name="label_action_clear_notifications">پاک کردن اطلاعیه‌ها</string>
   <string name="label_action_split_screen">تقسیم صفحه</string>
   <string name="label_action_one_handed_mode_left">حالت کار با یک دست (سمت چپ)</string>

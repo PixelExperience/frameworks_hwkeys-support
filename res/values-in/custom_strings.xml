@@ -19,10 +19,10 @@
   <!-- Bindable action labels -->
   <string name="label_action_no_action">Tidak ada tindakan</string>
   <string name="label_action_settings_panel">Panel setelan</string>
-  <string name="label_action_notification_panel">Panel pemberitahuan</string>
+  <string name="label_action_notification_panel">Panel Notifikasi</string>
   <string name="label_action_screenshot">Tangkapan layar</string>
   <string name="label_action_region_screenshot">Tangkapan layar sebagian</string>
-  <string name="label_action_screenrecord">Merekam layar</string>
+  <string name="label_action_screenrecord">Rekam layar</string>
   <string name="label_action_expanded_desktop">Desktop diperluas</string>
   <string name="label_action_screen_off">Matikan layar</string>
   <string name="label_action_force_close_app">Paksa tutup aplikasi</string>

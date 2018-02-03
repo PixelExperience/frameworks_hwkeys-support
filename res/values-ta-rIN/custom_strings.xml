@@ -52,5 +52,5 @@
   <string name="label_action_media_left">முந்தைய பாடல்</string>
   <string name="label_action_media_right">அடுத்த பாடல்</string>
   <!-- App killed message -->
-  <string name="app_killed_message">பயன்பாடு கொல்லப்பட்டது</string>
+  <string name="app_killed_message">%s மூடப்பட்டது</string>
 </resources>

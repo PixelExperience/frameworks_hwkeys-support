@@ -969,7 +969,7 @@ public class ActionHandler {
                     Resources systemUIRes = ActionUtils.getResourcesForPackage(context, ActionUtils.PACKAGE_SYSTEMUI);
                     int ident = systemUIRes.getIdentifier("app_killed_message", ActionUtils.STRING, ActionUtils.PACKAGE_SYSTEMUI);
                     String toastMsg = systemUIRes.getString(ident, pkgName);
-                    Context ctx = getPackageContext(context, DUActionUtils.PACKAGE_SYSTEMUI);
+                    Context ctx = getPackageContext(context, ActionUtils.PACKAGE_SYSTEMUI);
                     Toast.makeText(ctx != null ? ctx : context, toastMsg, Toast.LENGTH_SHORT).show();
                     return;
                 } else {

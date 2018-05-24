@@ -114,15 +114,8 @@ public final class ActionUtils {
         return Resources.getSystem().getConfiguration().smallestScreenWidthDp < 600;
     }
 
-    public static boolean hasNavbarByDefault(Context context) {
-        boolean needsNav = (Boolean)getValue(context, "config_showNavigationBar", BOOL, PACKAGE_ANDROID);
-        String navBarOverride = SystemProperties.get("qemu.hw.mainkeys");
-        if ("1".equals(navBarOverride)) {
-            needsNav = false;
-        } else if ("0".equals(navBarOverride)) {
-            needsNav = true;
-        }
-        return needsNav;
+    public static boolean isHWKeysSupported(Context context) {
+        return getInt(context, "config_deviceHardwareKeys", PACKAGE_ANDROID) != 64;
     }
 
     public static boolean deviceSupportsLte(Context ctx) {

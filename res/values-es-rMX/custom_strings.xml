@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">Modo de una mano (Lado derecho)</string>
   <string name="label_action_media_left">Pista anterior</string>
   <string name="label_action_media_right">Siguiente pista</string>
+  <string name="label_action_assistant_sound_search">Búsqueda de sonidos de Google</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s terminado</string>
 </resources>

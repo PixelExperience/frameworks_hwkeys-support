@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">שולחן עבודה מורחב</string>
   <string name="label_action_screen_off">כבה מסך</string>
   <string name="label_action_force_close_app">אלץ סגירת אפליקציה</string>
+  <string name="label_action_google_assistant">עוזרת קולית</string>
   <string name="label_action_in_app_search">חיפוש בתוך היישום</string>
   <string name="label_action_flashlight">פנס</string>
   <string name="label_action_bluetooth">Bluetooth</string>

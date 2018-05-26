@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">เต็มจอ</string>
   <string name="label_action_screen_off">ปิดหน้าจอ</string>
   <string name="label_action_force_close_app">บังคับปิดแอป</string>
+  <string name="label_action_google_assistant">Google assistant</string>
   <string name="label_action_in_app_search">ค้นหาในแอป</string>
   <string name="label_action_flashlight">ไฟฉาย</string>
   <string name="label_action_bluetooth">บลูทูธ</string>
@@ -48,6 +49,8 @@
   <string name="label_action_split_screen">แยกหน้าจอ</string>
   <string name="label_action_one_handed_mode_left">โหมดมือเดียว (ซ้าย)</string>
   <string name="label_action_one_handed_mode_right">โหมดมือเดียว (ขวา)</string>
+  <string name="label_action_media_left">แทร็กก่อนหน้า</string>
+  <string name="label_action_media_right">แทร็คถัดไป</string>
   <!-- App killed message -->
   <string name="app_killed_message">%sปิดแอป</string>
 </resources>

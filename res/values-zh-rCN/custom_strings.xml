@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">无操作</string>
-  <string name="label_action_settings_panel">QS 面板</string>
+  <string name="label_action_settings_panel">快速设置面板</string>
   <string name="label_action_notification_panel">通知面板</string>
   <string name="label_action_screenshot">屏幕截图</string>
   <string name="label_action_region_screenshot">局部截图</string>
@@ -26,7 +26,7 @@
   <string name="label_action_expanded_desktop">扩展桌面</string>
   <string name="label_action_screen_off">关闭屏幕</string>
   <string name="label_action_force_close_app">强制关闭应用</string>
-  <string name="label_action_google_assistant">谷歌助理</string>
+  <string name="label_action_google_assistant">Google Assistant</string>
   <string name="label_action_in_app_search">应用内搜索</string>
   <string name="label_action_flashlight">手电筒</string>
   <string name="label_action_bluetooth">蓝牙</string>
@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">单手模式（右侧）</string>
   <string name="label_action_media_left">上一曲</string>
   <string name="label_action_media_right">下一曲</string>
+  <string name="label_action_assistant_sound_search">Google 语音搜索</string>
   <!-- App killed message -->
   <string name="app_killed_message">已停止\"%s\"</string>
 </resources>

@@ -17,7 +17,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
-  <string name="label_action_no_action">Nincs művelet</string>
+  <string name="label_action_no_action">Nincs teendő</string>
   <string name="label_action_settings_panel">Beállítások panel</string>
   <string name="label_action_notification_panel">Értesítési panel</string>
   <string name="label_action_screenshot">Képernyőmentés</string>

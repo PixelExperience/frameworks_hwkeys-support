@@ -17,23 +17,23 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
-  <string name="label_action_no_action">無動作</string>
+  <string name="label_action_no_action">無操作</string>
   <string name="label_action_settings_panel">設定面板</string>
   <string name="label_action_notification_panel">通知面板</string>
-  <string name="label_action_screenshot">擷取螢幕畫面</string>
-  <string name="label_action_region_screenshot">部分螢幕截圖</string>
+  <string name="label_action_screenshot">截圖</string>
+  <string name="label_action_region_screenshot">部分截圖</string>
   <string name="label_action_screenrecord">錄製螢幕</string>
   <string name="label_action_expanded_desktop">延伸桌面</string>
   <string name="label_action_screen_off">關閉螢幕</string>
   <string name="label_action_force_close_app">強制關閉應用程式</string>
-  <string name="label_action_google_assistant">Google 語音助理</string>
+  <string name="label_action_google_assistant">Google 個人助理</string>
   <string name="label_action_in_app_search">應用程式內搜尋</string>
   <string name="label_action_flashlight">手電筒</string>
   <string name="label_action_bluetooth">藍牙</string>
   <string name="label_action_wifi">WiFi</string>
   <string name="label_action_hotspot">熱點</string>
   <string name="label_action_last_app">最後一個應用程式</string>
-  <string name="label_action_overview">總覽</string>
+  <string name="label_action_overview">最近的應用程式</string>
   <string name="label_action_power_menu">電源選單</string>
   <string name="label_action_menu">選單</string>
   <string name="label_action_back">返回</string>

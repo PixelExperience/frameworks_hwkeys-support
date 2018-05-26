@@ -21,7 +21,7 @@
   <string name="label_action_settings_panel">Bảng cài đặt</string>
   <string name="label_action_notification_panel">Bảng thông báo</string>
   <string name="label_action_screenshot">Chụp ảnh màn hình</string>
-  <string name="label_action_region_screenshot">Ảnh chụp màn hình một phần</string>
+  <string name="label_action_region_screenshot">Chụp một phần màn hình</string>
   <string name="label_action_screenrecord">Ghi lại màn hình</string>
   <string name="label_action_expanded_desktop">Mở rộng màn hình</string>
   <string name="label_action_screen_off">Tắt màn hình</string>

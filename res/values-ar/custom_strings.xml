@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">نمط اليد الواحدة (الجانب الأيمن)</string>
   <string name="label_action_media_left">المسار السابق</string>
   <string name="label_action_media_right">المسار التالي</string>
+  <string name="label_action_assistant_sound_search">بحث صوتي ب Google</string>
   <!-- App killed message -->
   <string name="app_killed_message">تم إغلاق %s</string>
 </resources>

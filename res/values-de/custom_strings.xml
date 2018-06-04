@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">Einhandmodus (rechte Seite)</string>
   <string name="label_action_media_left">Vorheriger Titel</string>
   <string name="label_action_media_right">Nächster Titel</string>
+  <string name="label_action_assistant_sound_search">Google Sounderkenner</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s beendet</string>
 </resources>

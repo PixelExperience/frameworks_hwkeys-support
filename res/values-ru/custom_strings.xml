@@ -40,10 +40,10 @@
   <string name="label_action_home">Домой</string>
   <string name="label_action_ime_switcher">Выбор способа ввода</string>
   <string name="label_action_stop_screenpinning">Остановить закрепление экрана</string>
-  <string name="label_action_ime_down">Курсор вниз при вводе</string>
-  <string name="label_action_ime_left">Курсор влево при вводе</string>
-  <string name="label_action_ime_right">Курсор вправо при вводе</string>
-  <string name="label_action_ime_up">Курсор вверх при вводе</string>
+  <string name="label_action_ime_down">При вводе курсор снизу</string>
+  <string name="label_action_ime_left">При вводе курсор справа</string>
+  <string name="label_action_ime_right">При вводе курсор справа</string>
+  <string name="label_action_ime_up">При вводе курсор сверху</string>
   <string name="label_action_volume_panel">Панель громкости</string>
   <string name="label_action_clear_notifications">Очистить уведомления</string>
   <string name="label_action_split_screen">Разделить экран</string>

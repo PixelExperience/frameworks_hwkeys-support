@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">एक हाताने मोड (उजवी बाजू)</string>
   <string name="label_action_media_left">मागील ट्रॅक</string>
   <string name="label_action_media_right">पुढील ट्रॅक</string>
+  <string name="label_action_assistant_sound_search">Google ध्वनी शोध</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s ब्न्द केले</string>
 </resources>

@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">એક હાથે સ્થિતિ (જમણે બાજુ)</string>
   <string name="label_action_media_left">ગત ટ્રેક</string>
   <string name="label_action_media_right">આગામી ટ્રેક</string>
+  <string name="label_action_assistant_sound_search">Google સાઉન્ડ શોધ</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s killed</string>
 </resources>

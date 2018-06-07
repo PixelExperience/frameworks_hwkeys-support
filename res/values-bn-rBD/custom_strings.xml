@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">এক হাত মোড (ডান দিক)</string>
   <string name="label_action_media_left">পূর্ববর্তী ট্র্যাক</string>
   <string name="label_action_media_right">পরবর্তী ট্র্যাক</string>
+  <string name="label_action_assistant_sound_search">গুগল শব্দ অনুসন্ধান</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s বন্ধ করা হয়েছে</string>
 </resources>

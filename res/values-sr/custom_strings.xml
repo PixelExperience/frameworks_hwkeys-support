@@ -26,7 +26,7 @@
   <string name="label_action_expanded_desktop">Проширена радна површина</string>
   <string name="label_action_screen_off">Искључи екран</string>
   <string name="label_action_force_close_app">Присилно затвори апликацију</string>
-  <string name="label_action_google_assistant">Google асистент</string>
+  <string name="label_action_google_assistant">Гугл асистент</string>
   <string name="label_action_in_app_search">Претрага унутар апликације</string>
   <string name="label_action_flashlight">Лампа</string>
   <string name="label_action_bluetooth">Bluetooth</string>
@@ -51,7 +51,7 @@
   <string name="label_action_one_handed_mode_right">Режим коришћења једном руком (десна страна)</string>
   <string name="label_action_media_left">Предходна нумера</string>
   <string name="label_action_media_right">Следећа нумера</string>
-  <string name="label_action_assistant_sound_search">Google гласовно претраживање</string>
+  <string name="label_action_assistant_sound_search">Gугл гласовно претраживање</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s заустављена</string>
 </resources>

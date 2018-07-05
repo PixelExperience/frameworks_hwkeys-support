@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">Yhden käden tila (oikea puoli)</string>
   <string name="label_action_media_left">Edellinen kappale</string>
   <string name="label_action_media_right">Seuraava kappale</string>
+  <string name="label_action_assistant_sound_search">Google ääni haku</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s lopetettu</string>
 </resources>

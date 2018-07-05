@@ -17,6 +17,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">ഒന്നും ചെയ്യാനില്ല</string>
   <string name="label_action_screenshot">സ്ക്രീൻഷോട്ട്</string>
   <string name="label_action_region_screenshot">ഭാഗികമായ സ്ക്രീൻഷോട്ട്‌</string>
   <string name="label_action_screenrecord">സ്ക്രീൻ റെക്കോർഡ് ചെയ്യുക</string>
@@ -36,6 +37,7 @@
   <string name="label_action_back">തിരികെ</string>
   <string name="label_action_home">ഹോം</string>
   <string name="label_action_ime_switcher">IME മാറ്റുക</string>
+  <string name="label_action_stop_screenpinning">സ്ക്രീൻ പിൻ ഓഫ് ചെയ്യുക</string>
   <string name="label_action_volume_panel">വോളിയം പാനൽ</string>
   <string name="label_action_clear_notifications">അറിയിപ്പുകൾ മാറ്റുക</string>
   <string name="label_action_split_screen">സ്ക്രീൻ പകുത്തെടുക്കുക</string>

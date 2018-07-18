@@ -17,5 +17,33 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">Nav darbība</string>
+  <string name="label_action_notification_panel">Paziņojumu vadība</string>
+  <string name="label_action_screenshot">Ekrānuzņēmums</string>
+  <string name="label_action_screenrecord">Ierakstīt ekrānu</string>
+  <string name="label_action_expanded_desktop">Paplašināta darbvirsma</string>
+  <string name="label_action_screen_off">Izslēgt ekrānu</string>
+  <string name="label_action_force_close_app">Piespiedu apturēšana</string>
+  <string name="label_action_google_assistant">Google palīgs</string>
+  <string name="label_action_in_app_search">Meklēšana lietotnē</string>
+  <string name="label_action_flashlight">Lukturītis</string>
+  <string name="label_action_bluetooth">Bluetooth</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">Tīklājs</string>
+  <string name="label_action_last_app">Pēdējā lietotne</string>
+  <string name="label_action_overview">Nesenie</string>
+  <string name="label_action_power_menu">Barošanas izvēlne</string>
+  <string name="label_action_menu">Izvēlne</string>
+  <string name="label_action_back">Atpakaļ</string>
+  <string name="label_action_home">Sākums</string>
+  <string name="label_action_ime_switcher">IME mainītājs</string>
+  <string name="label_action_volume_panel">Skaņas izvelne</string>
+  <string name="label_action_clear_notifications">Notīrīt paziņojumus</string>
+  <string name="label_action_split_screen">Dalīt ekrānu</string>
+  <string name="label_action_one_handed_mode_left">Vienas rokas režīms (kreisā puse)</string>
+  <string name="label_action_one_handed_mode_right">Vienas rokas režīms (labā puse)</string>
+  <string name="label_action_media_left">Iepriekšējā dziesma</string>
+  <string name="label_action_media_right">Nākamā dziesma</string>
+  <string name="label_action_assistant_sound_search">Google skaņas meklētājs</string>
   <!-- App killed message -->
 </resources>

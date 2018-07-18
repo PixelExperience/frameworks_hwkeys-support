@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">โหมดมือเดียว (ขวา)</string>
   <string name="label_action_media_left">แทร็กก่อนหน้า</string>
   <string name="label_action_media_right">แทร็คถัดไป</string>
+  <string name="label_action_assistant_sound_search">การค้นหาด้วยเสียงของ Google</string>
   <!-- App killed message -->
   <string name="app_killed_message">%sปิดแอป</string>
 </resources>

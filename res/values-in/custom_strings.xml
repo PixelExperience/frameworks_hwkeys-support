@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">Tidak ada tindakan</string>
-  <string name="label_action_settings_panel">Panel setelan</string>
+  <string name="label_action_settings_panel">Panel Setelan Cepat</string>
   <string name="label_action_notification_panel">Panel pemberitahuan</string>
   <string name="label_action_screenshot">Tangkapan layar</string>
   <string name="label_action_region_screenshot">Tangkapan layar sebagian</string>
@@ -34,16 +34,16 @@
   <string name="label_action_hotspot">Hotspot</string>
   <string name="label_action_last_app">Aplikasi terakhir</string>
   <string name="label_action_overview">Terbaru</string>
-  <string name="label_action_power_menu">Menu daya</string>
+  <string name="label_action_power_menu">Menu tombol daya</string>
   <string name="label_action_menu">Menu</string>
   <string name="label_action_back">Kembali</string>
   <string name="label_action_home">Home</string>
   <string name="label_action_ime_switcher">Pengganti IME</string>
   <string name="label_action_stop_screenpinning">Berhenti menyemat layar</string>
-  <string name="label_action_ime_down">Metode masukan kursor ke bawah</string>
-  <string name="label_action_ime_left">Metode masukan kursor ke kiri</string>
-  <string name="label_action_ime_right">Metode masukan kursor ke kanan</string>
-  <string name="label_action_ime_up">Metode masukan kursor ke atas</string>
+  <string name="label_action_ime_down">Saat memasukan kursor dari bawah</string>
+  <string name="label_action_ime_left">Saat memasukan kursor dari kiri</string>
+  <string name="label_action_ime_right">Saat memasukan kursor dari kanan</string>
+  <string name="label_action_ime_up">Saat memasukan kursor dari atas</string>
   <string name="label_action_volume_panel">Panel volume</string>
   <string name="label_action_clear_notifications">Bersihkan pemberitahuan</string>
   <string name="label_action_split_screen">Layar terpisah</string>

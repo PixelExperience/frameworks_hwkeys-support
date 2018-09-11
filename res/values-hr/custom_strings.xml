@@ -51,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">Način rada jednom rukom (desna strana)</string>
   <string name="label_action_media_left">Prethodna pjesma</string>
   <string name="label_action_media_right">Sljedeća pjesma</string>
+  <string name="label_action_assistant_sound_search">Googleovo pretraživanje po zvuku</string>
   <!-- App killed message -->
   <string name="app_killed_message">Aplikacija %s je zaustavljena</string>
 </resources>

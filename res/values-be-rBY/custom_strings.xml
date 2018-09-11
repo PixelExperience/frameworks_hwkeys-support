@@ -26,6 +26,7 @@
   <string name="label_action_expanded_desktop">Рэжым пашыранага экрану</string>
   <string name="label_action_screen_off">Выключыць экран</string>
   <string name="label_action_force_close_app">Прымусова закрыць праграму</string>
+  <string name="label_action_google_assistant">Google асістэнт</string>
   <string name="label_action_in_app_search">Пошук у праграме</string>
   <string name="label_action_flashlight">Ліхтарык</string>
   <string name="label_action_bluetooth">Bluetooth</string>
@@ -50,6 +51,7 @@
   <string name="label_action_one_handed_mode_right">Рэжым «Кіраванне адной рукой» (правы бок)</string>
   <string name="label_action_media_left">Папярэдні трэк</string>
   <string name="label_action_media_right">Наступны трэк</string>
+  <string name="label_action_assistant_sound_search">Галасавы пошук Google</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s зачынена</string>
 </resources>

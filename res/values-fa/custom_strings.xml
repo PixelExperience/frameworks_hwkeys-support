@@ -20,8 +20,8 @@
   <string name="label_action_no_action">بدون اقدام</string>
   <string name="label_action_settings_panel">پانل تنظیمات سریع</string>
   <string name="label_action_notification_panel">پانل اعلان‌ها</string>
-  <string name="label_action_screenshot">عکس گرفتن از صفحه</string>
-  <string name="label_action_region_screenshot">عکس گرفتن از بخشی از صفحه</string>
+  <string name="label_action_screenshot">اسکرین شات</string>
+  <string name="label_action_region_screenshot">اسکرین شات از بخشی از صفحه</string>
   <string name="label_action_screenrecord">فیلم‌ گرفتن از صفحه</string>
   <string name="label_action_expanded_desktop">میز کار گسترده</string>
   <string name="label_action_screen_off">خاموش کردن صفحه‌نمایش</string>
